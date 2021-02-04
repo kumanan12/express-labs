@@ -3,11 +3,27 @@
 <head>
   <title>Express</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
 </head>
 
 <body>
   <h1>Express: Github actions.</h1>
   <p>Welcome to Express</p>
+  <div id="app">
+    <input type="text" v-model="name">
+    <p>Hello {{name}}</p>  
+  </div>
+  <script>  
+    new Vue({
+      el:"#app",
+      data(){
+        return{
+          name: 'Kumanan'
+        }
+      }
+    })
+  </script>
 </body>
 
 </html>
