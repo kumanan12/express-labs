@@ -5,8 +5,14 @@ const fs = require("fs").promises;
 
 
 async function readAFile(){
+   try {
     var result = await fs.readFile("test-file.txt", "utf8");
     console.log(result);
+       
+   } catch (e) {
+       console.error(e.message);
+   }
+
 }
 
 readAFile();

@@ -12,7 +12,7 @@
                 "<node_internals>/**"
             ],
             // "program": "${workspaceFolder}\\bin\\www"
-            "program": "${workspaceFolder}\\public\\scripts\\callback-node.js"
+            "program": "${workspaceFolder}\\public\\scripts\\async\\read-file-using-async.js"
         }
     ]
 }

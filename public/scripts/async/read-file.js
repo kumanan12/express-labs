@@ -15,6 +15,7 @@ const fs = require("fs");
       console.error(err);
       return;
     }
+    console.log("option 2");
     console.log(data);
   }
   
