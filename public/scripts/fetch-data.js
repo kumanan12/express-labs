@@ -1,11 +1,10 @@
 'use strict';
 var users = document.getElementById("users");
 //var tableRow =
-
-
 function onerror(msg){
   console.error(msg);
 }
+
 function getUsers() {
   console.log("getting users");
   fetch("https://jsonplaceholder.typicode.com/users")
@@ -15,7 +14,7 @@ function getUsers() {
   console.log("got users");
 }
 
-getUsers();
+
 
 function loadData(data) {
   var userData = "";
@@ -28,6 +27,8 @@ function loadData(data) {
     users.innerHTML = userData;
   }
 }
+
+getUsers();
 
 
 
