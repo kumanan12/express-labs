@@ -1,0 +1,50 @@
+// console.log("callback demo");
+
+// function buttonClicked(){
+//     console.log("Button click handler");
+// }
+
+// // Method 1
+// document.getElementById("saveBtn").addEventListener('click', function(){
+//     console.log("button clicked");
+// });
+
+// // Method 2
+// document.getElementById("saveBtn").addEventListener('click', buttonClicked);
+
+var names = ["Nikhil", "Suganthi", "Yazhini", "Meghaa", "Sasi" ];
+
+function filter(name, nameToFind) {
+    return name === "Sasi"
+}
+
+
+var filteredNames = names.find((item) => {
+    return item === "Meghaa"
+});
+
+var filteredNames1 = names.find(filter)
+
+
+var names = ["Nikhil", "Suganthi", "Yazhini", "Meghaa", "Sasi" ];
+
+function filter(name, nameToFind) {
+    return name === nameToFind;
+}
+
+========================================================
+var filteredNames = names.find((item) => {
+    return item === "Meghaa"
+});
+
+var filteredNames1 = names.find(filter.bind(this, "Yazhini"));
+
+console.log(filteredNames1);
+
+
+setTimeout(function () {
+  var addResult = add(3, 2);
+  console.log(`3 + 2 is ${addResult}`);
+}, 1000);
+
+
