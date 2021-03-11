@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2021-02-12T15:11:36.205Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.68" etag="TUxaTl6pWsfwWGRzzYrJ" version="14.3.1" type="github">
+  <diagram id="rcFq2WWCfJVJQN395U4c" name="Page-1">
+    <mxGraphModel dx="1550" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-1" value="voter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-2" value="First name" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-3" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="270" y="90" width="350" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-4" value="last name" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="220" y="125" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-5" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Greeting%22%20style%3D%22strokeWidth%3D1%3Bshadow%3D0%3Bdashed%3D0%3Balign%3Dcenter%3Bhtml%3D1%3Bshape%3Dmxgraph.mockup.forms.rrect%3BfillColor%3D%23ffffff%3BrSize%3D0%3BfontColor%3D%23666666%3Balign%3Dleft%3BspacingLeft%3D3%3BstrokeColor%3D%23999999%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22270%22%20y%3D%22325%22%20width%3D%22350%22%20height%3D%2218%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="270" y="125" width="350" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-6" value="DOB" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-8" value="Place of birth" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="220" y="195" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-9" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="270" y="195" width="350" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-13" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Greeting%22%20style%3D%22strokeWidth%3D1%3Bshadow%3D0%3Bdashed%3D0%3Balign%3Dcenter%3Bhtml%3D1%3Bshape%3Dmxgraph.mockup.forms.rrect%3BfillColor%3D%23ffffff%3BrSize%3D0%3BfontColor%3D%23666666%3Balign%3Dleft%3BspacingLeft%3D3%3BstrokeColor%3D%23999999%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22270%22%20y%3D%22325%22%20width%3D%22350%22%20height%3D%2218%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="270" y="160" width="350" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-14" value="" style="shape=mxgraph.signs.tech.camera_2;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="99" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-15" value="upload photo" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-16" value="Register" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;fontColor=#ffffff;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="245" y="340" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-17" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.checkbox;fillColor=#008465;strokeColor=none;html=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="349" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="HkQuusBKYGCY2OQ2zL-H-18" value="Voter Registration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=39;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="480" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

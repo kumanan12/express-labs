@@ -1,0 +1,31 @@
+function reallyLong(){
+    for (let index = 0; index < 10000000000; index++) {
+        
+    }
+     console.log("done");
+}
+
+function longWithcb(cb){
+    for (let index = 0; index < 10000000000; index++) {
+        
+    }
+    cb("completed long operation");    
+}
+function log(msg) {
+    console.log(msg);
+}
+
+function printName(name){
+    console.log("printing  name");
+    longWithcb(log);
+    console.log(`The name is ${name}`);
+    console.log("done");
+}
+
+function reallyLongWithPromise(){
+    new Promise(resolve, reject) {
+
+    }
+}
+
+printName("kumanan")
