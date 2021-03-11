@@ -1,18 +1,31 @@
-var users = document.getElementById("users");
-//var tableRow = 
-fetch("https://jsonplaceholder.typicode.com/users")
-    .then(response => response.json())
-    .then(loadData);
+// var users = document.getElementById("users");
+// //var tableRow = 
+// fetch("https://jsonplaceholder.typicode.com/users")
+//     .then(response => response.json())
+//     .then(loadData);
 
-function loadData(data) {
-    var userData = '';
-    console.log("loading data");
-    console.log(data)
-    if (data) {
-        data.forEach(item => {
-            userData += `  <tr><td scope="row">${item.name}</td><td>${item.name}</td><td>${item.phone}</td></tr>`;
-        });
-        users.innerHTML = userData;
-    }
+// function loadData(data) {
+//     var userData = '';
+//     console.log("loading data");
+//     console.log(data)
+//     if (data) {
+//         data.forEach(item => {
+//             userData += `  <tr><td scope="row">${item.name}</td><td>${item.name}</td><td>${item.phone}</td></tr>`;
+//         });
+//         users.innerHTML = userData;
+//     }
+// }
+
+function foo() {
+    throw new Error("Oops");
 }
 
+function bar() {
+    foo();
+}
+
+function baz() {
+    bar();
+}
+
+baz();
