@@ -1,9 +1,12 @@
-const Joi = require('joi')
+const math = require("./node-modules-poc/math");
 
-const schema = Joi.object({
-    a: Joi.string()
-});
+console.log(math.mean([2,3,5]));
+// const Joi = require('joi')
 
-const { error, value } = schema.validate({ a: 1 });
+// const schema = Joi.object({
+//     a: Joi.string()
+// });
 
-console.log(`error is ${error}, value is ${JSON.stringify(value)}`);
+// const { error, value } = schema.validate({ a: 1 });
+
+// console.log(`error is ${error}, value is ${JSON.stringify(value)}`);

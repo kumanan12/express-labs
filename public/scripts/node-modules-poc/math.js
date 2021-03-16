@@ -1,8 +1,19 @@
-const sum = (x, y) => x + y;
-const square = x => x * x;
+const sum = function(x,y) {
+    return x + y;
+}
 
-exports.mean = data => data.reduce(sum)/data.length;
-exports.stddev = function(d) {
-    let m = exports.mean(d);
-    return Math.sqrt(d.map(x => x - m).map(square).reduce(sum)/(d.length-1));
-};
+
+const square = function (x) {
+    return x * x;
+}
+
+exports.mean = function (data) {
+    return data.reduce(sum)/data.length;
+}
+
+exports.name= "Kumanan";
+
+exports.sum = sum;
+
+
+
