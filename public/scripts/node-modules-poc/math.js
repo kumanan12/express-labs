@@ -11,7 +11,12 @@ exports.mean = function (data) {
     return data.reduce(sum)/data.length;
 }
 
+
+
 exports.name= "Kumanan";
+exports.student = {
+    'name': 'Meghaa'
+}
 
 exports.sum = sum;
 
